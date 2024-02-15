@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="Auto" thread-count="2" parallel="methods">
+
+    <test name="Package1">
+        <classes>
+            <class name="ui.selenide.WikiTest"/>
+        </classes>
+    </test>
+
+</suite>
