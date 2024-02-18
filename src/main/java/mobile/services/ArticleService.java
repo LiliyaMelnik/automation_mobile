@@ -11,11 +11,9 @@ public class ArticleService {
                 .clickFirstArticle()
                 .getArticleName();
     }
-    public void clickFirstArticle() {
-         articlePage.clickFirstArticle();
-    }
-    public String getHistoryName() {
-        return articlePage
-                .getHistoriaText();
+
+    public void clickArticle() {
+        articlePage
+                .clickFirstArticle();
     }
 }

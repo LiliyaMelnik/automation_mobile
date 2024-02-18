@@ -9,6 +9,4 @@ public class SearchService {
         searchPage.clickOnSearchField()
                   .fillInput("Appium");
     }
-
-
 }

@@ -17,5 +17,4 @@ public class SearchPage extends BaseMethods {
         sendKeys(input, text);
         return new SearchPage();
     }
-
 }
