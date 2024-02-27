@@ -7,7 +7,6 @@ import org.aeonbits.owner.Config.Sources;
 @LoadPolicy(Config.LoadType.MERGE)
 @Sources("classpath:mobile.properties")
 public interface BaseConfig extends Config {
-
     String platformName();
     String deviceName();
     String platformVersion();
@@ -16,5 +15,4 @@ public interface BaseConfig extends Config {
     String appActivity();
     String app();
     String url();
-
 }
